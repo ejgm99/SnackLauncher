@@ -1,7 +1,7 @@
 import serial,time
 
 class arduino_serial(): #interface for talking to arduino
-    def __init__(self,path = "../../../../../dev/tty.usbserial-DN01DMC1", rate = 250000):
+    def __init__(self,path = "../../../../../dev/tty.usbserial-DN00YO77", rate = 250000):
         self.serial = serial.Serial(path, rate)
         self.out = "hello"
         self.mode = True
