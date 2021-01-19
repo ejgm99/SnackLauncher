@@ -10,7 +10,7 @@ pygame.joystick.init()
 class Hello5Program():
     def __init__(self):
         self._running = True
-
+        self.pos = p
     def terminate(self):
         self._running = False
 

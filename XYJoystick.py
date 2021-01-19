@@ -15,7 +15,7 @@ class XYJoystick():
     def run(self):
         global x
         global y
-        global z
+
         self.input()
     def input(self):
         pygame.event.get()

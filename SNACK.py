@@ -19,7 +19,7 @@ class XYJoystick():
         pygame.event.get()
         xy[0] = self.joystick.get_axis(0)
         xy[1] = self.joystick.get_axis(1)
-
+    def scaleInputs(self, )
 s = XYJoystick()
 
 class Stepper():

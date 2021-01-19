@@ -86,13 +86,13 @@ X = Stepper(0,20,21)
 XThread = Thread(target=X.run)
 XThread.start()
 
-Y = Stepper(1,22,23)
-YThread = Thread(target=Y.run)
-YThread.start()
-
-cY = Stepper(1,20,21,is_coupled = True)
-cYThread = Thread(target=cY.run)
-cYThread.start()
+# Y = Stepper(1,22,23)
+# YThread = Thread(target=Y.run)
+# YThread.start()
+#
+# cY = Stepper(1,20,21,is_coupled = True)
+# cYThread = Thread(target=cY.run)
+# cYThread.start()
 
 while True:
     s.input()
